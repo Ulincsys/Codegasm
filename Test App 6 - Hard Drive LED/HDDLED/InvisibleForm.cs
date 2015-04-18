@@ -38,7 +38,7 @@ namespace HDDLED
             hddNotifyIcon.Visible = true;
 
             // Create all context menu items and add them to notification tray icon
-            MenuItem progNameMenuItem = new MenuItem("Hard Drive LED v1.0 BETA by: Barnacules");
+            MenuItem progNameMenuItem = new MenuItem("Disk Activity Monitor");
             MenuItem breakMenuItem = new MenuItem("-");
             MenuItem quitMenuItem = new MenuItem("Quit");
             ContextMenu contextMenu = new ContextMenu();
